@@ -1,2 +1,13 @@
 # Pocket_Cube
-基于C++和OpenGL的可交互式的二阶Pocket_Cube魔方|Interactive, second-order Pocket_Cube Rubik's Cube based on C++ and OpenGL
+该项目是一个基于C++和OpenGL的可交互式的二阶Pocket_Cube魔方
+
+目前同步更新到了0.2.0版本
+
+## 使用方法
+运行后你回看到两个窗口，右边的是openGL窗口显示Pocket_Cube魔方视图，左边是easyX窗口，显示操作方法和提示语句
+
+目前版本只支持使用键盘控制魔方旋转，鼠标近似地改变视角，并且按下回车键后，程序会自行寻找最短线路，并且复原Pocket_Cube魔方
+
+## 说明
+由于本人技术有限，目前版本的魔方的自动化复原只可以复原5步以内的打乱（当然你可以试着使用公式自己复原你打乱的魔方）
+
